@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Events Subpage</title>
+    <link rel="stylesheet" href="index.css" />
+    <style>
+      /* Add custom styles for the Events Subpage */
+      body {
+        background-image: url("images/event.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: #fff;
+        font-family: Arial, sans-serif;
+        margin: 0; /* Remove default margin */
+      }
+
+      .navbar {
+        background-color: #a85813;
+        padding: 10px;
+      }
+
+      .navbar ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+      }
+
+      .navbar li {
+        margin-right: 15px;
+      }
+
+      .navbar li:last-child {
+        margin-right: 0;
+      }
+
+      .navbar a {
+        color: #fff;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 16px;
+      }
+
+      .events-section {
+        margin-top: 20px;
+        padding: 20px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        grid-gap: 20px;
+      }
+
+      .event-card {
+        background-color: rgba(255, 255, 255, 0.8); /* Lowered opacity */
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+
+      .event-card img {
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 10px;
+        margin-bottom: 10px;
+      }
+
+      .event-card h5 {
+        font-size: 20px;
+        color: #000;
+        margin-bottom: 10px;
+      }
+
+      .event-card p {
+        font-size: 16px;
+        color: #333;
+        margin-bottom: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar">
+      <ul>
+        <li><a href="web.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="characters.html">Characters</a></li>
+        <li><a href="creators.html">Creators</a></li>
+      </ul>
+    </nav>
+
+    <!-- Content section for the Events Subpage -->
+    <section class="events-section">
+      <div class="event-card">
+        <img src="images/crisis.jpg" alt="Crisis on Infinite Earths" />
+        <h5>Crisis on Infinite Earths</h5>
+        <p>
+          Crisis on Infinite Earths is a landmark comic book crossover event
+          that redefined the DC Comics multiverse. It featured a large cast of
+          heroes and villains from various parallel universes, battling to save
+          the entire multiverse from destruction.
+        </p>
+      </div>
+      <div class="event-card">
+        <img src="images/infantry.jpg" alt="Infinity Gauntlet" />
+        <h5>Infinity Gauntlet</h5>
+        <p>
+          Infinity Gauntlet is a Marvel Comics event centered around the
+          all-powerful Infinity Gauntlet and its wielder, Thanos. Thanos obtains
+          all six Infinity Gems and becomes nearly omnipotent, causing chaos and
+          conflict across the universe.
+        </p>
+      </div>
+      <div class="event-card">
+        <img src="images/secretwars.jpg" alt="Secret Wars" />
+        <h5>Secret Wars</h5>
+        <p>
+          Secret Wars is a Marvel Comics crossover event that brought together
+          heroes and villains from various Marvel universes onto an artificial
+          planet called Battleworld. The event involved epic battles, power
+          struggles, and unexpected alliances.
+        </p>
+      </div>
+      <div class="event-card">
+        <img src="images/flashpoint.jpg" alt="Flashpoint" />
+        <h5>Flashpoint</h5>
+        <p>
+          Flashpoint is a DC Comics event that explores an alternate timeline
+          where The Flash alters the course of history, resulting in a world
+          without its iconic heroes. The event follows Barry Allen as he
+          navigates this changed reality and attempts to restore the original
+          timeline.
+        </p>
+      </div>
+    </section>
+  </body>
+</html>
